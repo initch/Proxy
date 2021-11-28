@@ -1,4 +1,11 @@
-# 代码日志
+# Proxy
+
+```
+gcc -o proxy proxy.c -lpthread -lsqlite3
+./proxy 8888
+```
+
+注意需要安装`sqlite3`。
 
 ## 基本访问连接
 
